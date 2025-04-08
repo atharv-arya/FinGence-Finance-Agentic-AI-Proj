@@ -1,23 +1,8 @@
-# Ignore environment variables
-.env
-
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-*.log
-
-# Virtual environments
+# Ignore environment folder
 venv/
+.env
+__pycache__/
+*.pyc
 
-# macOS
+# macOS metadata
 .DS_Store
-
-# VSCode
-.vscode/
-
-# Streamlit cache
-.streamlit/
-
-# Jupyter Notebook checkpoints (if any)
-.ipynb_checkpoints/
